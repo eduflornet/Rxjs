@@ -1,0 +1,37 @@
+{
+  "name": "booktracker",
+  "version": "0.0.0",
+  "keywords": [
+    "rxjs",
+    "typescript"
+  ],
+  "author": "Eduardo Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduflornet/Rxjs/issues"
+  },
+  "homepage": "https://github.com/eduflornet/Rxjs#readme",
+  "scripts": {
+    "start": "concurrently --kill-others \".\\node_modules\\.bin\\webpack --watch\" \"node server.js\""
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~3.1.0",
+    "express": "~4.16.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "rxjs": "^6.6.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "concurrently": "~3.5.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
