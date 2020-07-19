@@ -1,4 +1,4 @@
-import { Observable, from, concat, fromEvent } from "rxjs";
+import { Observable, from, concat, fromEvent, of } from "rxjs";
 import { allBooks, allReaders } from "./data";
 
 let allBooksObservable$ = Observable.create((subscriber) => {
